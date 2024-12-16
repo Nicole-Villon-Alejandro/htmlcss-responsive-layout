@@ -55,13 +55,11 @@
         font-size: 3rem;
     }
 
-    .social-networks button {
-        padding-inline: 100px;
-
-    }
 
     .social-networks .label {
-        display: block; 
+        display: inline;
     }
+
+
 }
 
