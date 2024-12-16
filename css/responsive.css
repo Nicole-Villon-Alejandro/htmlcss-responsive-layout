@@ -33,7 +33,7 @@
     }
 
     .social-networks button {
-        padding-inline: 60px;
+        padding-inline: 50px;
 
     }
 
@@ -55,10 +55,32 @@
         font-size: 3rem;
     }
 
+    .recipe-card{
+        display: flex;
+
+    }
+
+    .recipe-card .recipe-video{
+        flex-basis: 75%;
+    }
+
+    .recipe-card .recipe-info{
+        flex-basis: 25%;
+    
+    }    
+
+    .quick-notes ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .recipe-video {
+        height: auto;
+    }
+
     .social-networks .label {
         display: inline-block;
     }
-
 
     footer{
         display: flex;
